@@ -23,8 +23,8 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsup",
+    "dev": "node init && tsup --watch",
     "clean": "rm -rf dist",
     "prettier-check": "prettier --check \"./**/*.ts*\""
   },
