@@ -6,7 +6,7 @@
     "build:watch": "turbo build -- --watch",
     "changeset": "changeset",
     "clean": "turbo clean",
-    "dev": "turbo dev",
+    "dev": "node api.js && turbo dev",
     "lint": "turbo lint",
     "prettier-check": "prettier --check \"**/*.{js,ts,tsx,md,mdx}\"",
     "type-check": "turbo type-check",

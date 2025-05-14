@@ -6,7 +6,6 @@ node_modules
 dist
 dist-ssr
 *.local
-.env
 .cache
 server/dist
 public/dist
@@ -18,3 +17,4 @@ packages/*/research-report.md
 packages/*/build-report.md
 packages/*/doc-report.md
 packages/*/codegen-report.md
+config.bat

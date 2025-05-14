@@ -4,7 +4,7 @@
   "description": "Example frontend for Google Sheets with Microfox SDKs",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -22,4 +22,4 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
   }
-} 
+}
