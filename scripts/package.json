@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Scripts for Microfox package documentation updates",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "process-issue": "ts-node src/process-issue.ts",
     "process-comment": "ts-node src/process-comment.ts",
     "gen:pkg-build": "ts-node src/fixBuildIssues.ts",
